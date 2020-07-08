@@ -23,7 +23,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "src/thingsboard.ico",
+              "src/mts.ico",
               "src/assets",
               { "glob": "worker-html.js", "input": "./node_modules/ace-builds/src-min/", "output": "/" },
               { "glob": "worker-css.js", "input": "./node_modules/ace-builds/src-min/", "output": "/" },
