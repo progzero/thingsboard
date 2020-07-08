@@ -6,7 +6,9 @@
         "access-forbidden": "Доступ запрещен",
         "access-forbidden-text": "У вас нет прав доступа к этому ресурсу!<br/>Для получения доступа попробуйте войти под другим пользователем.",
         "refresh-token-expired": "Сессия истекла",
-        "refresh-token-failed": "Не удалось обновить сессию"
+        "refresh-token-failed": "Не удалось обновить сессию",
+        "permission-denied": "Доступ запрещён",
+        "permission-denied-text": "У вас нет разрешения на выполнение этой операции!"
     },
     "action": {
         "activate": "Активировать",
@@ -21,6 +23,7 @@
         "no": "Нет",
         "update": "Обновить",
         "remove": "Удалить",
+        "select": "Выбрать",
         "search": "Поиск",
         "clear-search": "Очистить",
         "assign": "Присвоить",
@@ -50,7 +53,8 @@
         "export": "Экспортировать",
         "share-via": "Поделиться в {{provider}}",
         "continue": "Продолжить",
-        "discard-changes": "Отменить изменения"
+        "discard-changes": "Отменить изменения",
+        "download": "Скачать"
     },
     "aggregation": {
         "aggregation": "Агрегация",
@@ -86,6 +90,14 @@
         "timeout-invalid": "Недействительный таймаут.",
         "enable-tls": "Включить TLS",
         "tls-version" : "Версия TLS",
+        "enable-proxy": "Включить прокси",
+        "proxy-host": "Прокси-хост",
+        "proxy-host-required": "Требуется прокси-хост.",
+        "proxy-port": "Порт прокси",
+        "proxy-port-required": "Требуется порт прокси.",
+        "proxy-port-range": "Порт прокси должен быть в диапазоне от 1 до 65535.",
+        "proxy-user": "Имя пользователя прокси",
+        "proxy-password": "Пароль прокси",
         "send-test-mail": "Отправить пробное письмо",
         "security-settings": "Настройки безопасности",
         "password-policy": "Политика паролей",
@@ -280,6 +292,8 @@
         "name-starts-with": "Название актива, начинающееся с",
         "import": "Импортировать активы",
         "asset-file": "Файл с активами",
+        "search": "Поиск активов",
+        "selected-assets": "{ count, plural, 1 {1 актив} other {# активов} } выбрано",
         "label": "Метка"
     },
     "attribute": {
@@ -307,7 +321,9 @@
         "add-to-dashboard": "Добавить на дашборд",
         "add-widget-to-dashboard": "Добавить виджет на дашборд",
         "selected-attributes": "{ count, plural, 1 {Выбран} other {Выбраны} } { count, plural, one {1 атрибут} few {# атрибута} other {# атрибутов} }",
-        "selected-telemetry": "{ count, plural, 1 {Выбран} other {Выбраны} } { count, plural, 1 {1 параметр} few {# параметра} other {# параметров} } телеметрии"
+        "selected-telemetry": "{ count, plural, 1 {Выбран} other {Выбраны} } { count, plural, 1 {1 параметр} few {# параметра} other {# параметров} } телеметрии",
+        "no-attributes-text": "Атрибуты не найдены",
+        "no-telemetry-text": "Телеметрия не найдена"
     },
     "audit-log": {
         "audit": "Аудит",
@@ -372,7 +388,8 @@
         "enter-username": "Введите имя пользователя",
         "enter-password": "Введите пароль",
         "enter-search": "Введите условие поиска",
-        "created-time": "Время создания"
+        "created-time": "Время создания",
+        "loading": "Загрузка..."
     },
     "content-type": {
         "json": "Json",
@@ -425,7 +442,9 @@
         "customer-required": "Клиент обязателен",
         "select-default-customer": "Выбрать клиента по умолчанию",
         "default-customer": "Клиент по умолчанию",
-        "default-customer-required": "Клиент по умолчанию обязателен для отладки дашборда на уровне на уровне Владельца"
+        "default-customer-required": "Клиент по умолчанию обязателен для отладки дашборда на уровне на уровне Владельца",
+        "search": "Поиск клиентов",
+        "selected-customers": "{ count, plural, 1 {1 клиент} other {# клиентов} } выбрано"
     },
     "datetime": {
         "date-from": "Дата с",
@@ -572,7 +591,9 @@
         "show-details": "Показать подробности",
         "hide-details": "Скрыть подробности",
         "select-state": "Выбрать состояние",
-        "state-controller": "Контроллер состояния"
+        "state-controller": "Контроллер состояния",
+        "search": "Поиск дашбордов",
+        "selected-dashboards": "{ count, plural, 1 {1 дашборд} other {# дашбордов} } выбрано"
     },
     "datakey": {
         "settings": "Настройки",
@@ -607,6 +628,7 @@
         "add-datasource-prompt": "Пожалуйста, добавьте источник данных"
     },
     "details": {
+        "details": "Подробности",
         "edit-mode": "Режим редактирования",
         "edit-json": "Редактировать JSON",
         "toggle-edit-mode": "Режим редактирования"
@@ -707,7 +729,9 @@
         "device-public": "Устройство общедоступно",
         "select-device": "Выбрать устройство",
         "import": "Импортировать устройства",
-        "device-file": "Файл с устройствами"
+        "device-file": "Файл с устройствами",
+        "search": "Поиск устройств",
+        "selected-devices": "{ count, plural, 1 {1 устройство} other {# устройств} } выбрано"
     },
     "dialog": {
         "close": "Закрыть диалог"
@@ -931,7 +955,9 @@
         "make-public-entity-view-title": "Вы уверенны, что хотите открыть общий доступ к представленю объекта '{{entityViewName}}'?",
         "make-public-entity-view-text": "После подтверждения представление объекта и все связанные с ним данные станут публичными и доступными для других пользователей.",
         "make-private-entity-view-title": "Вы уверенны, что хотите закрыть общий доступ к представлению объекта '{{entityViewName}}'?",
-        "make-private-entity-view-text": "После подтверждения представление объекта и все звязанные с ним данные станут приватными и не будут доступны для других пользователей."
+        "make-private-entity-view-text": "После подтверждения представление объекта и все звязанные с ним данные станут приватными и не будут доступны для других пользователей.",
+        "search": "Поиск представления объектов",
+        "selected-entity-views": "{ count, plural, 1 {1 представление объекта} other {# представлений объектов} } выбрано"
     },
     "event": {
         "event-type": "Тип события",
@@ -1127,6 +1153,80 @@
     "function": {
         "function": "Функция"
     },
+    "gateway": {
+        "add-entry": "Добавить конфигурацию",
+        "connector-add": "Добавить новый коннектор",
+        "connector-enabled": "Включить коннектор",
+        "connector-name": "Имя коннектора",
+        "connector-name-required": "Имя коннектора обязательно.",
+        "connector-type": "Тип коннектора",
+        "connector-type-required": "Тип коннектора обязателен.",
+        "connectors": "Конфигурация коннекторов",
+        "create-new-gateway": "Создать новый гетвей",
+        "create-new-gateway-text": "Вы уверены, что хотите создать новый гетвей с именем: '{{gatewayName}}'?",
+        "delete": "Удалить конфигурацию",
+        "download-tip": "Скачать файл конфигурации",
+        "gateway": "Гетвей",
+        "gateway-exists": "Устройство с таким именем уже существует.",
+        "gateway-name": "Название гетвея",
+        "gateway-name-required": "Имя гетвея обязательно.",
+        "gateway-saved": "Конфигурация гетвея успешно сохранена.",
+        "json-parse": "Не действительный JSON.",
+        "json-required": "Поле не может быть пустым.",
+        "no-connectors": "Нет коннекторов",
+        "no-data": "Нет конфигураций",
+        "no-gateway-found": "Гетвей не найден.",
+        "no-gateway-matching": " '{{item}}' не найден.",
+        "path-logs": "Путь к файлам логов",
+        "path-logs-required": "Путь обязателен.",
+        "remote": "Удаленная конфигурация",
+        "remote-logging-level": "Уровень ведения логов",
+        "remove-entry": "Удалить конфигурацию",
+        "save-tip": "Сохранить конфигурацию в файл",
+        "security-type": "Тип безлпасности",
+        "security-types": {
+            "access-token": "Access Token",
+            "tls": "TLS"
+        },
+        "storage": "Хранилище",
+        "storage-max-file-records": "Максимальное количество записей в файле",
+        "storage-max-files": "Максимальное количество файлов",
+        "storage-max-files-min": "Минимальное количество 1.",
+        "storage-max-files-pattern": "Номер неверный.",
+        "storage-max-files-required": "Номер обязателен.",
+        "storage-max-records": "Максимальное количество записей в хранилище",
+        "storage-max-records-min": "Минимальное количество записей 1.",
+        "storage-max-records-pattern": "Номер неверный.",
+        "storage-max-records-required": "Максимальное число записей обязательно.",
+        "storage-pack-size": "Максимальный размер пакета событий",
+        "storage-pack-size-min": "Минимальное количество 1.",
+        "storage-pack-size-pattern": "Номер неверный.",
+        "storage-pack-size-required": "Максимальный размер пакета событий обязателен.",
+        "storage-path": "Путь к хранилищу",
+        "storage-path-required": "Путь к хранилищу обязателен.",
+        "storage-type": "Тип хранилища",
+        "storage-types": {
+            "file-storage": "Файловое хранилище",
+            "memory-storage": "Память"
+        },
+        "thingsboard": "ThingsBoard",
+        "thingsboard-host": "Хост ThingsBoard",
+        "thingsboard-host-required": "Хост обязателен.",
+        "thingsboard-port": "Порт ThingsBoard",
+        "thingsboard-port-max": "Максимальный номер порта 65535.",
+        "thingsboard-port-min": "Минимальный номер порта 1.",
+        "thingsboard-port-pattern": "Порт неверный.",
+        "thingsboard-port-required": "Порт обязателен.",
+        "tidy": "Форматировать",
+        "tidy-tip": "Форматировать конфигурацию JSON",
+        "title-connectors-json": "Конфигурация коннектора {{typeName}}",
+        "tls-path-ca-certificate": "Путь к сертификату CA на гетвее",
+        "tls-path-client-certificate": "Путь к клиентскому сертификату на гетвее",
+        "tls-path-private-key": "Путь к закрытому ключу на гетвее",
+        "toggle-fullscreen": "Включить полноэкранный режим",
+        "transformer-json-config": "Конфигурация JSON*",
+        "update-config": "Добавить/обновить конфигурацию JSON"
+    },
     "grid": {
         "delete-item-title": "Вы точно хотите удалить этот объект?",
         "delete-item-text": "Внимание, после подтверждения объект и все связанные с ним данные будут безвозвратно утеряны.",
@@ -1194,7 +1294,9 @@
     },
     "js-func": {
         "no-return-error": "Функция должна возвращать значение!",
-        "return-type-mismatch": "Функция должна возвращать значение типа '{{type}}'!"
+        "return-type-mismatch": "Функция должна возвращать значение типа '{{type}}'!",
+        "tidy": "Форматировать",
+        "mini": "Mini"
     },
     "key-val": {
         "key": "Ключ",
@@ -1249,7 +1351,8 @@
         "password-link-sent-message": "Ссылка для сброса пароля была успешно отправлена!",
         "email": "Эл. адрес",
         "login-with": "Войти через {{name}}",
-        "or": "или"
+        "or": "или",
+        "error": "Ошибка входа"
     },
     "position": {
         "top": "Верх",
@@ -1303,7 +1406,8 @@
         "any-relation": "Любое отношение",
         "relation-filters": "Фильтры отношений",
         "additional-info": "Дополнительная информация (JSON)",
-        "invalid-additional-info": "Не удалось распознать JSON с дополнительной информацией."
+        "invalid-additional-info": "Не удалось распознать JSON с дополнительной информацией.",
+        "no-relations-text": "Отношений не найдено"
     },
     "rulechain": {
         "rulechain": "Цепочка правил",
@@ -1340,7 +1444,10 @@
         "no-rulechains-matching": "Цепочки правил, соответствующие '{{entity}}', не найдены.",
         "rulechain-required": "Цепочка правил обязательна",
         "management": "Управление цепочками правил",
-        "debug-mode": "Режим отладки"
+        "debug-mode": "Режим отладки",
+        "search": "Поиск цепочек правил",
+        "selected-rulechains": "{ count, plural, 1 {1 цепочка правил} other {# цепочек правил} } выбрано",
+        "open-rulechain": "Открыть цепочку правил"
     },
     "rulenode": {
         "details": "Подробности",
@@ -1436,7 +1543,13 @@
         "idCopiedMessage": "ИД владельца скопирован в буфер обмена",
         "select-tenant": "Выбрать владельца",
         "no-tenants-matching": "Владельцы, соответствующие '{{entity}}', не найдены.",
-        "tenant-required": "Владелец обязателен"
+        "tenant-required": "Владелец обязателен",
+        "search": "Поиск владельцев",
+        "selected-tenants": "{ count, plural, 1 {1 владелец} other {# владельцев} } выбрано",
+        "isolated-tb-core": "Обработка в изолированном контейнере ThingsBoard Core",
+        "isolated-tb-rule-engine": "Обработка в изолированном контейнере ThingsBoard Rule Engine",
+        "isolated-tb-core-details": "Требуется отдельный микросервис(ы) для каждого изолированного Владельца",
+        "isolated-tb-rule-engine-details": "Требуется отдельный микросервис(ы) для каждого изолированного Владельца"
     },
     "timeinterval": {
         "seconds-interval": "{ seconds, plural, one {1 секунда} few {# секунды} other {# секунд} }",
@@ -1506,6 +1619,8 @@
         "details": "Подробности",
         "login-as-tenant-admin": "Войти как администратор владельца",
         "login-as-customer-user": "Войти как пользователь клиента",
+        "search": "Поиск пользователей",
+        "selected-users": "{ count, plural, 1 {1 пользователь} other {# пользователей} } выбрано",
         "disable-account": "Отключить учетную запись пользователя",
         "enable-account": "Включить учетную запись пользователя",
         "enable-account-message": "Учетная запись пользователя была успешно включена!",
@@ -1524,7 +1639,11 @@
         "boolean-value": "Логическое значение",
         "false": "Ложь",
         "true": "Правда",
-        "long": "Целое число"
+        "long": "Целое число",
+        "json": "JSON",
+        "json-value": "JSON значение",
+        "json-value-invalid": "JSON значение имеет неверный формат",
+        "json-value-required": "JSON значение обязательно."
     },
     "widget": {
         "widget-library": "Галерея виджетов",
@@ -1616,7 +1735,10 @@
         "export-failed-error": "Не удалось экспортировать набор виджетов: {{error}}",
         "create-new-widgets-bundle": "Создать новый набор виджетов",
         "widgets-bundle-file": "Файл набора виджетов",
-        "invalid-widgets-bundle-file-error": "Не удалось импортировать набор виджетов: неизвестная схема данных набора виджетов."
+        "invalid-widgets-bundle-file-error": "Не удалось импортировать набор виджетов: неизвестная схема данных набора виджетов.",
+        "search": "Поиск набора виджетов",
+        "selected-widgets-bundles": "{ count, plural, 1 {1 набор виджетов} other {# наборов виджетов} } выбрано",
+        "open-widgets-bundle": "Открыть набор виджетов"
     },
     "widget-config": {
         "data": "Данные",
@@ -1797,6 +1919,26 @@
         }
     },
     "language": {
-        "language": "Язык"
+        "language": "Язык",
+        "locales": {
+            "de_DE": "Немецкий",
+            "fr_FR": "Французский",
+            "zh_CN": "Упрощенный китайский",
+            "zh_TW": "Традиционный китайский",
+            "en_US": "Английский",
+            "it_IT": "Итальянский",
+            "ko_KR": "Корейский",
+            "ru_RU": "Русский",
+            "es_ES": "Испанский",
+            "ja_JA": "Японский",
+            "tr_TR": "Турецкий",
+            "fa_IR": "Персидский",
+            "uk_UA": "Украинский",
+            "cs_CZ": "Чешский",
+            "el_GR": "Греческий",
+            "ro_RO": "Румынский",
+            "lv_LV": "Латышский",
+            "ka_GE": "Грузинский"
+        }
     }
 }
